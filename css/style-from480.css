@@ -1,0 +1,461 @@
+
+/****************************************************************
+*
+*
+*        СТИЛИ ДЛЯ ЭКРАНОВ c 480px
+*
+*
+****************************************************************/
+
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+
+
+.page-header__logo-wrapper {
+    padding-top: 70px;
+    margin-bottom: 92px;
+}
+
+
+/*************************************************
+Promo-slider
+*************************************************/
+.promo-slider__item-bg {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.promo-slider__item-wrapper {
+    padding-top: 93px;
+    padding-left: 40px;
+    padding-bottom: 96px;
+}
+
+.promo-slider__button-left {
+    top: 4px;
+    left: -4px;
+}
+
+.promo-slider__button-right {
+    right: -4px;
+    top: 3px;
+}
+
+.promo-slider__item-img {
+    display: block;
+    position: absolute;
+    top: -9px;
+    right: 30px;
+    right: 31px;
+    width: 39.9%;
+    width: 210px;
+}
+
+
+.promo-slider__item-header {
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #FEFEFE;
+    font-size: 36px;
+    margin-bottom: 3px;
+    text-align: left;
+    margin-left: auto;
+}
+.promo-slider__item-subheader {
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #EDBFFF;
+    font-size: 18px;
+    text-align: left;
+    margin-left: auto;
+}
+
+.promo-slider__button-left {
+    position: absolute;
+    margin: auto;
+    top: 1px;
+    bottom: 0;
+    left:-3px;
+    height: 42px;
+    cursor: pointer;
+}
+.promo-slider__button-right {
+    position: absolute;
+    margin: auto;
+    top: 1px;
+    bottom: 0;
+    right: -3px;
+    height: 42px;
+    cursor: pointer;
+}
+
+
+.promo-slider__pagination {
+    text-align: center;
+    height: 98px;
+    padding-top: 21px;
+}
+.promo-slider__pagination-item {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-image: url('../img/slider-paginaiton.png');
+    cursor: pointer;
+}
+.promo-slider__pagination-item--active {
+    background-image: url('../img/slider-pagination-active.png');
+}
+
+
+
+/*************************************************
+About our company
+*************************************************/
+.about-company {
+    padding-top: 77px;
+    padding-bottom: 49px;
+    padding-left: 2px;
+}
+
+
+
+/*************************************************
+Reviews slider
+*************************************************/
+.reviews-and-updates {
+    background-color: #f9f9f9;
+}
+
+.reviews-slider {
+    padding-top: 68px;
+    padding-left: 6.25%; /*20/320*/
+    padding-right: 6.25%; /*20/320*/
+
+}
+.reviews-slider__item {
+    margin-left: 6.25%; /*20/320*/
+    background-color: #ffffff;
+    padding-left: 13.67%; /*35/256*100*/
+    padding-right: 13.67%; /*35/256*100*/
+    padding-top: 24px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    position: relative;
+    padding-bottom: 33px;
+    
+
+}
+.reviews-slider__item-author {
+    position: absolute;
+    top: 15px;
+    left: -22px;
+}
+
+.reviews-slider__item-header {
+    text-shadow: 0.5px 0.9px 0 white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #454545;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.reviews-slider__item-header--colored {
+    color: #edbfff;
+}
+
+.reviews-slider__item-text {
+    color: #454545;
+     font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial,  sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 5px;
+
+    height: 164px;
+    overflow: hidden;
+}
+
+
+.reviews-slider__pagination {
+    height: 86px;
+    text-align: center;
+    padding-top: 19px;
+
+}
+.reviews-slider__pagination_item {
+    cursor: pointer;
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background-image: url(../img/sprite-pagination.png);
+}
+.reviews-slider__pagination-item--active {
+    background-position: 19px 0;
+}
+
+
+
+.reviews-slider__wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.reviews-slider {
+    padding-top: 72px;
+}
+
+.reviews-slider__item {
+    margin-left: 13px;
+    margin-right: 49px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 37px;
+    padding-top: 28px;
+}
+
+.reviews-slider__item-header {
+    font-size: 30px;
+    display: inline-block;
+}
+.reviews-slider__item-header--colored {
+    font-size: 30px;
+    display: inline-block;
+
+}
+.reviews-slider__item-text {
+    font-size: 17px;
+    margin-top: 17px;
+}
+.reviews-slider__pagination {
+    padding-top: 23px;
+    padding-right: 46px;
+}
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+Resent Updates
+*************************************************/
+.updates {
+    margin-left: 6.25%;
+    /*20/320*/
+    margin-right: 6.25%;
+    /*20/320*/
+    
+}
+
+.updates__header {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: -5px;
+}
+
+.updates__item {
+    padding-left: 62px;
+    position: relative;
+}
+
+.updates__item-image {
+    position: absolute;
+    top: 0px;
+    left: 54px;
+}
+
+.updates__item-header {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    height: 24px;
+    overflow: hidden;
+}
+
+.updates__item-descr {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    height: 24px;
+    overflow: hidden;
+}
+
+.updates__more-link {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+
+    text-align: right;
+     margin-top: 24px;
+    margin-bottom:70px; 
+    margin-right: 9px;
+    text-decoration: none;
+}
+
+
+.updates{
+    padding-bottom: 87px;
+    border-bottom: 1px solid white;
+    margin-top: -3px;
+}
+.updates__header {
+    margin-top: 3px;
+    padding-left: 58px;
+    margin-bottom: 16px;
+}
+.updates__item {
+    padding-left: 119px;
+    margin-bottom: 20px;;
+}
+
+
+.updates__more-link-wrapp{
+    text-align: right;
+    margin-top: -9px;
+    margin-right: -6px;
+}
+.updates__more-link {
+    margin-top: -3px;
+    margin-right: 31px;
+}
+
+
+
+
+/*************************************************
+Customers logo
+*************************************************/
+
+
+.customers-logo__wrapper {
+    padding-top: 36px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+
+
+.customers-logo__image-wrapper {
+    width: 33.33%;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+News
+*************************************************/
+.news {
+    display: block;
+    background-color: #ececec;
+    border-top: 1px solid #d8d8d8;
+}
+
+.news__wrapper {
+    padding: 80px 20px 36px;
+}
+
+.news__description {
+    display: none;
+}
+
+.news__comments {
+    display: none;
+}
+
+.news__categories {}
+
+.news__categories-header {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.news__categories-text {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #787878;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 92px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+Footer
+*************************************************/
+.page-footer {
+    padding-top: 0px;
+}
+
+.page-footer__menu {
+    display: block;
+    padding-top: 38px;
+    padding-bottom: 19px;
+    text-align: center;
+}
+
+.page-footer__menu-item {
+    text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+
+
+} /* end media */

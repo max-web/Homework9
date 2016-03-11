@@ -1,0 +1,615 @@
+
+/****************************************************************
+*
+*
+*        СТИЛИ ДЛЯ ЭКРАНОВ - c 320px
+*
+*        (код для устройств до 320px - в style-before320.css)
+*
+****************************************************************/
+
+
+
+
+
+
+/*************************************************
+Top Background
+*************************************************/
+.background-wrapper {
+	background-image: url('../img/bg-header-960px.jpg');
+	background-position: 50% 0px;
+}
+
+
+/*************************************************
+Header
+*************************************************/
+.page-header {
+	position: relative;
+}
+
+.page-header__logo-wrapper {
+	padding-top: 70px;
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+.menu {
+	width: 250px;
+	border-radius: 10px;
+
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 133px;
+	margin: auto;
+
+	border: none;
+	box-shadow: none;
+	z-index: 9999;
+	text-transform: uppercase;
+}
+
+.menu__link {
+	text-align: center;
+	height: 47px;
+	line-height: 47px;
+	color: white;
+	font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 24px;
+	text-decoration: none;
+	
+
+	background:none;
+	border-top:none;
+	border-bottom:none;
+	display: none;
+	box-shadow: none;
+}
+
+.menu__link:first-child{
+	border-radius: 10px 10px 0 0;
+}
+.menu__link:last-child{
+	border-radius: 0 0 10px 10px;
+}
+
+
+
+.menu__link--active .menu__item-underline{
+	display: inline-block;
+	border-bottom: 2px solid #edbfff;
+	padding: 0 2px;
+	line-height: 30px;
+}
+
+.menu:hover .menu__link:hover{
+	background: rgb(43, 34, 49);
+	background-color: rgba(43, 34, 49, .9);	
+}
+
+.menu:hover .menu__link:hover .menu__item-underline{
+	display: block;
+	border-bottom: 2px solid #edbfff;
+	padding: 0 2px;
+	line-height: 43px;
+}
+
+
+
+.menu__link--active{
+	display: block;
+}
+
+.menu:hover {
+	border: 1px solid #121b22;
+	box-shadow: inset 0 1px 0 #5f486a;
+}
+
+
+.menu:hover .menu__link{
+	display: block;
+	box-shadow: 0 1px 1px #523e5a;
+
+	background: rgb(54, 41, 62);
+	background-color: rgba(54, 41, 62, .9);
+	border-top: 1px solid #503d58;
+	border-bottom: 1px solid #36283e;
+}
+
+
+}
+
+
+/*************************************************
+Promo-slider
+*************************************************/
+
+
+.promo-slider__item-descr {
+	display: none;
+}
+.promo-slider__item-img {
+	display: none;
+}
+.promo-slider__item-image {
+	display: none;
+}
+.promo-slider__item-video {
+	display: none;
+}
+
+
+
+.promo-slider__item-wrapper {
+	height: auto;
+	position: relative;
+	padding-top: 95px;
+}
+
+
+
+.promo-slider__item {
+	padding-left: 20.63%;
+}
+
+.promo-slider__item-header {
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #FEFEFE;
+    font-size: 36px;
+    margin-bottom: 3px;
+	text-align: left;
+	margin-left: 20.31%;
+	text-shadow: 0px 2px 2px #000;
+
+}
+
+.promo-slider__item-subheader {
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #EDBFFF;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 20.31%;
+    text-shadow: 0px 2px 2px #000;
+
+}
+
+
+
+
+.promo-slider__button-left {
+	position: absolute;
+	margin: auto;
+	top: 96px;
+	bottom: 0;
+	left:-3px;
+	height: 42px;
+	cursor: pointer;
+}
+.promo-slider__button-right {
+	position: absolute;
+	margin: auto;
+	top: 96px;
+	bottom: 0;
+	right: -3px;
+	height: 42px;
+	cursor: pointer;
+}
+
+
+
+.promo-slider__pagination {
+	text-align: center;
+	height: 163px;
+	padding-top: 78px;
+	min-width: 320px;
+}
+.promo-slider__pagination-item {
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background-image: url('../img/slider-paginaiton.png');
+	cursor: pointer;
+}
+.promo-slider__pagination-item--active {
+	background-image: url('../img/slider-pagination-active.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+About our company
+*************************************************/
+
+
+
+.about-company {
+	background-color: #745083;
+	background-image: -webkit-linear-gradient(bottom, #322539 0%, #745083 100%);
+	background-image: -moz-linear-gradient(bottom, #322539 0%, #745083 100%);
+	background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+	padding-top: 70px;
+	padding-bottom: 56px;
+	border-top: 1px solid #34263b;
+	border-bottom: 1px solid #34263b;
+	border-bottom: 1px solid #21333b;
+}
+
+.about-company__item {
+    padding-left: 81px;
+    position: relative;
+    display: block;
+    margin-right: 10px;
+    padding-top: 1px;
+    margin-bottom: 23px;
+}
+
+.about-company__item-header {
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-shadow: 0.5px 0.9px 0 #0f1518;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
+.about-company__item-descr {
+    text-shadow: 0.5px 0.9px 0 #0f1518;
+    color: white;
+	 font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial,  sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 9px;
+
+    overflow: hidden;
+    max-height: 77px;
+	width: 90%;
+}
+
+.about-company__item-link {
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-shadow: 0.5px 0.9px 0 #0f1518;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    margin-right: 17px;
+}
+
+.about-company__item-link:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+.about-company__item-icon {
+	position: absolute;
+	width: 30px;
+	height: 31px;
+	background-image: url(../img/sprite-1.png);
+
+	top: 3px;
+	left: 30px;
+}
+
+.about-company__item-icon--n2{
+	background-position: 59px 0;	
+}
+.about-company__item-icon--n3{
+	background-position: 29px 0;
+}
+
+
+
+
+
+
+
+
+/*************************************************
+Reviews slider
+*************************************************/
+
+.reviews-and-updates {
+	background-color: #f9f9f9;
+	border-top: 1px solid #12191f;
+	background-image: url(../img/bg-reviews-and-updates.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+}
+.review-updates__wrapper{
+	border-top: 1px solid #f9f9f9;
+}
+
+.reviews-slider {
+	padding-top: 70px;
+	padding-left: 6.25%; /*20/320*/
+	padding-right: 6.25%; /*20/320*/
+	min-width: 	320px;
+
+}
+.reviews-slider__item {
+	margin-left: 6.25%; /*20/320*/
+	background-color: #ffffff;
+	padding-left: 14.97%; /*35/256*100*/
+	padding-right: 13.67%; /*35/256*100*/
+	padding-top: 23px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	position: relative;
+	padding-bottom: 30px;
+    
+
+}
+.reviews-slider__item-author {
+	position: absolute;
+	top: 16px;
+	left: -18px;
+}
+
+.reviews-slider__item-header {
+    text-shadow: 0.5px 0.9px 0 white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #454545;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.reviews-slider__item-header--colored {
+    color: #edbfff;
+}
+
+.reviews-slider__item-text {
+    color: #454545;
+	 font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial,  sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 5px;
+
+    height: 164px;
+    overflow: hidden;
+}
+
+
+.reviews-slider__pagination {
+	height: 86px;
+	text-align: center;
+	padding-top: 23px;
+
+}
+.reviews-slider__pagination_item {
+	cursor: pointer;
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	background-image: url(../img/sprite-pagination.png);
+}
+.reviews-slider__pagination-item--active {
+	background-position: 19px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+Resent Updates
+*************************************************/
+.updates {
+    margin-left: 6.25%;
+    /*20/320*/
+    margin-right: 6.25%;
+    /*20/320*/
+	
+    padding: 2px;
+    padding-bottom: 88px;
+    margin-top: 1px;
+    min-width: 320px;	
+}
+
+.updates__header {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: -5px;
+    margin-bottom: 17px;
+}
+
+.updates__item {
+    padding-left: 62px;
+    position: relative;
+    margin-bottom: 17px;
+}
+
+.updates__item-image {
+    position: absolute;
+    top: 0px;
+    left: -2px;
+}
+
+.updates__item-header {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    height: 24px;
+    overflow: hidden;
+}
+
+.updates__item-descr {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    height: 24px;
+    overflow: hidden;
+}
+
+
+.updates__more-link-wrapp{
+	text-align: right;
+	padding-top: 7px;
+	padding-right: 4px;
+}
+
+.updates__more-link {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+
+    text-align: right;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+Customers logo
+*************************************************/
+
+.customers-logo {
+	border-top: 1px solid #e6e6e6;
+	font-size: 0px;
+}
+
+.customers-logo__wrapper{
+	padding-top: 51px;
+	padding-bottom: 0px;
+	border-top: 1px solid #fefefe;
+	min-width: 	320px;
+}
+
+.customers-logo__image-wrapper {
+	height: 65px;
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+News
+*************************************************/
+.news{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+Footer
+*************************************************/
+.page-footer {
+    background-image: url(../img/bg-footer.jpg) ;
+    height: 201px;
+    padding-top: 30px;
+    margin-top: -5px;
+	background:  url(../img/bg-footer-shadow.png) 50% 0px no-repeat, url(../img/bg-footer.jpg) ;
+}
+
+.page-footer__wrapper{
+}
+
+.page-footer__menu {
+    display: none;
+}
+
+.page-footer__copyright {
+    text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 12px;
+    line-height: 34px;
+    font-weight: 300;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+
+.page-footer__copyright--company {
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+/*} /*end @media*/

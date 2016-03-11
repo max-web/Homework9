@@ -1,0 +1,588 @@
+
+/****************************************************************
+*
+*
+*        СТИЛИ ДЛЯ ЭКРАНОВ c 960px
+*
+*
+****************************************************************/
+
+@media screen and (min-width: 960px) {
+
+
+
+/*************************************************
+Background - wrapper in top of page
+*************************************************/
+.background-wrapper {
+    background-position: 50% 0px;
+}
+
+
+
+
+
+
+
+
+
+/*************************************************
+Header
+*************************************************/
+
+.page-header {
+    padding-top: 1px;
+    height: 278px;
+}
+
+.page-header:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.page-header__logo-wrapper {
+    margin-bottom: 31px;
+    text-align: left;
+    padding-left: 0px;
+    float: left;
+}
+
+.menu {
+    float: right;
+    padding-left: 12px;
+    margin-bottom: 81px;
+    margin-top: 74px;
+}
+
+.menu__link {
+    display: inline-block;
+    text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: LeagueGothic;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;  
+    margin-left: 48px;
+}
+
+.menu__link:last-child{
+    margin-right: 0;
+}
+
+
+.menu__link--active .menu__item-underline{
+    border-bottom: 2px solid #edbfff;
+}
+
+.menu__item-underline {
+    padding: 0 6px;
+}
+
+.menu__item-underline:last-child {
+    padding: 0 0px;
+}
+
+
+
+
+
+/*************************************************
+Promo-slider
+*************************************************/
+.promo-slider__item-bg {
+    /*background-color: rgba(0, 0, 0, .2);*/
+    background-image: url(../img/bg-promo-slider-ie8.png);
+}
+
+.promo-slider__item-wrapper {
+    padding-top: 79px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 425px;
+    height: 400px;
+}
+
+.promo-slider__item-header {
+    color: #fefefe;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 58px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    margin-left: 0;
+}
+
+.promo-slider__item-subheader {
+    color: #edbfff;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    height: 28px;
+    overflow: hidden;
+    margin-bottom: 9px;
+    margin-left: 0;
+}
+
+
+
+.promo-slider__item-descr {
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    height: 250px;
+    overflow: hidden;
+    line-height: 24px;
+}
+
+.promo-slider__button-left {
+    top: 0px;
+    bottom: 0;
+    left: -40px;
+}
+
+.promo-slider__button-right {
+    top: 0px;
+    bottom: 0px;
+    right: 35px;
+}
+
+.promo-slider__item-img {
+    display: block;
+    position: absolute;
+    top: -16px;
+    right: 71px;
+}
+
+
+.promo-slider__pagination {
+    height: 169px;
+    padding-top: 97px;
+}
+.promo-slider__pagination-item {
+}
+.promo-slider__pagination-item--active {
+}
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+About our company
+*************************************************/
+
+.about-company {
+    padding-top: 75px;
+    padding-bottom: 64px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about-company__wrapper {
+    margin-bottom: 2px;
+}
+
+.about-company__item {
+    width: 30%; /*288px / 960 */
+    padding-left: 61px;
+    float:left;
+    margin-right: 5%;  /*48px / 960 */
+    margin-bottom: 0;
+}
+.about-company__item:last-child{
+    margin-right: 0px;
+}
+
+.about-company__item--for-pix-pefr-n1{
+    width: 29.6875%;
+    margin-right: 5.625%;
+}
+.about-company__item--for-pix-pefr-n2{
+    width: 29.6875%;
+    margin-right: 5.3125%;
+}
+.about-company__item--for-pix-pefr-n3{
+    width: 29.6875%;
+    margin-right: 0px;
+}
+
+.about-company__item-header {
+    font-size: 29px;
+    padding-left: 4px;
+    margin-bottom: 8px;
+}
+.about-company__item-descr {
+    max-height: 122px;
+    width: auto;
+}
+.about-company__item-link {
+    margin-right: 5px;
+    padding-top: 9px;
+}
+.about-company__item-icon {
+    top: 7px;
+    left: 10px;
+}
+.about-company__item-icon--n2 {
+}
+.about-company__item-icon--n3 {
+}
+
+
+
+
+
+
+
+
+
+/*************************************************
+Reviews slider
+*************************************************/
+
+.reviews-and-updates{
+    padding: 33px 20px 0px 0px;
+
+}
+
+.review-updates__wrapper{
+    margin: 0 auto 10px;
+    max-width: 960px;
+    margin-bottom: 2px;
+}
+
+.review-updates__wrapper:after{
+   content: "";
+   display: table;
+   clear: both;    
+}
+
+
+.reviews-slider {
+    width: 50%;
+    float: left;
+    padding-left: 6px;
+    padding-right: 19px;
+    padding-top: 68px;
+}
+
+.reviews-slider__item {
+    padding-left: 39px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.reviews-slider__item:after {
+    background-image: url(../img/reviews-link.png);
+    content:'';
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    bottom: -18px;
+    right: 44px;
+}
+
+.reviews-slider__item-header{
+
+    font-size: 30px;
+    display: inline;
+}
+
+.reviews-slider__item-header--colored{
+
+}
+
+.reviews-slider__item-text{
+    
+    margin-top: 12px;
+}
+
+
+.reviews-slider__pagination{
+    margin-bottom: 10px;
+    padding-top: 23px;
+}
+
+
+.reviews-slider__item-author {
+    position: absolute;
+    top: 17px;
+    left: -23px;
+}
+
+
+
+
+
+
+/*************************************************
+Resent Updates
+*************************************************/
+.updates {
+    width: 37%;
+    float: left;
+    margin-top: 93px;
+    margin-right: 0px;
+    margin-left: 47px;
+}
+.updates__header {
+    margin-left: -8px;
+    margin-bottom: 17px;
+}
+.updates__item {
+    margin-bottom: 18px;
+    padding-left: 58px;
+}
+.updates__item-image {
+    top: 0px;
+    left: -7px;
+}
+.updates__item-header {
+}
+.updates__item-descr {
+}
+
+.updates__more-link-wrapp{
+    text-align: right;
+    margin-top: -3px;
+    margin-right: -76px;
+}
+
+.updates__more-link {
+    position: static;
+    
+    /*! margin-top: 10px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+Customers logo
+*************************************************/
+
+
+
+.customers-logo {
+    width: 100%;
+}
+.customers-logo__wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding: 25px 72px 15px;
+}
+.customers-logo__image-wrapper {
+    width: 16.6%;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+/*************************************************
+News
+*************************************************/
+.news {
+    display: block;
+    background-color: #ececec;
+    border-top: 1px solid #d8d8d8;
+}
+
+.news__wrapper {
+    padding: 95px 0px 35px;
+}
+
+.news__wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.news__description {
+    display: block;
+    width: 29.6875%;
+    float: left;
+    margin-right: 5.72916666666667%;
+}
+
+.news__description-header {
+    text-shadow: 0 1px 0 white;
+    color: #454545;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: -2px;
+    margin-bottom: 13px;
+}
+
+.news__colored-description {
+    text-shadow: 0 1px 0 white;
+    color: #b9b9b9;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.news__description-copyright {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #c5c5c5;
+    font-family: Georgia, "Times New Roman", Times, Baskerville, serif;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.news__description-text {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #787878;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.news__comments {
+    display: block;
+    width: 29.6875%;
+    float: left;
+    margin-right: 5.20833333333333%;
+}
+
+.news__comments-header {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.news__comments-text {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #787878;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 170px;
+    overflow: hidden;
+    margin-bottom: 60px;
+    padding-right: 30px;
+}
+
+.news__categories {
+    width: 29.6875%;
+    float: left;
+    margin-right: 0;
+}
+
+.news__categories-header {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.news__categories-text {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #787878;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 170px;
+    overflow: hidden;
+    margin-bottom: 60px;
+    padding-right: 30px;
+}
+
+.hide-from968 {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/*************************************************
+Footer
+*************************************************/
+.news{
+
+}
+
+.page-footer {
+    padding-top: 0px;
+    height: 112px;
+}
+
+.page-footer__menu {
+    /*! display: block; */
+    padding-top: 38px;
+    padding-bottom: 19px;
+    /*! text-align: center; */
+    /*margin-left: 18px;*/
+    float: left;
+    display: block;
+}
+
+.page-footer__menu-item {
+    text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+    text-decoration: none;
+    /*! margin: 0px 12px; */
+    margin-right: 39px;
+}
+
+
+.page-footer__copyright {
+    
+    float: right;
+    margin-top: 42px;
+    margin-right: -2px;
+}
+.page-footer__copyright--company {
+    margin-top: 0px;
+}
+
+
+
+
+} /*end @media*/

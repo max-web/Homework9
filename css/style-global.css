@@ -1,0 +1,207 @@
+
+
+
+
+
+
+
+
+/*************************************************
+Global Styles
+*************************************************/
+
+
+
+
+
+.mix-clearfix:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+
+* {
+	-moz-box-sizing: border-box;
+	     box-sizing: border-box;
+}
+
+
+
+/*шрифт для заголовков*/
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('../fonts/league_gothic-regular-webfont.eot');
+    src: url('../fonts/league_gothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/league_gothic-regular-webfont.woff2') format('woff2'),
+         url('../fonts/league_gothic-regular-webfont.woff') format('woff'),
+         url('../fonts/league_gothic-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial,  sans-serif;
+}
+
+
+/*html-5 теги в d:b*/
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+
+
+.mix-container{
+	margin: 0 auto;
+	/*margin: 0 auto 0 auto;*/
+	/*display: block;*/
+	/*text-align: center;*/
+
+
+}
+
+@media screen and (max-width: 319px) {
+	.mix-container{
+		width: 100%;
+		min-width:320px;
+	}
+} 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	.mix-container{
+		width: 100%;
+	}
+} 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.mix-container{
+		width: 100%;
+	}
+} 
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	.mix-container{
+		width: 100%;
+	}
+} 
+@media screen and (min-width: 960px) {
+	.mix-container{
+		width: 960px;
+		max-width: 100%;
+	}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+Responsive img
+*************************************************/
+
+
+.mix-respons-image {
+	max-width: 100%;
+	height: auto;
+}
+
+/*for ie 8 - лучше выносить в усл. коменты ниже основных стилей*/
+/* @media \0sceen{
+	.mix-respons-image{
+		width: auto;  
+	}
+} */
+
+
+
+/*************************************************
+Top Background
+*************************************************/
+
+.background-wrapper {
+	background-color: #f0d8e0;
+	background-image: url('../img/bg-header-960px.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

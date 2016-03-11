@@ -1,0 +1,475 @@
+
+/****************************************************************
+*
+*
+*        СТИЛИ ДЛЯ ЭКРАНОВ c 768
+*
+*
+****************************************************************/
+
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+
+/*************************************************
+Background - wrapper in top of page
+*************************************************/
+.background-wrapper {
+    background-position: 50.1% 0px;
+}
+
+
+
+
+
+
+
+
+
+/*************************************************
+Header
+*************************************************/
+
+.page-header {
+    padding-top: 1px;
+}
+
+.page-header__logo-wrapper {
+    margin-bottom: 31px;
+    text-align: left;
+    padding-left: 18px;
+    padding-top: 67px;
+}
+
+.menu {
+    display: block;
+    padding-left: 12px;
+    margin-bottom: 79px;
+}
+
+.menu__link {
+    display: inline-block;
+    text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: LeagueGothic;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;  
+    margin-right: 4.6875%;
+}
+
+.menu__link:last-child{
+    margin-right: 0;
+}
+
+
+.menu__link--active .menu__item-underline{
+    border-bottom: 2px solid #edbfff;
+}
+
+.menu__item-underline {
+    padding: 0 6px;
+}
+
+
+
+
+
+
+/*************************************************
+Promo-slider
+*************************************************/
+.promo-slider__item-bg {
+    /*background-color: rgba(0, 0, 0, .2);*/
+    background-image: url(../img/bg-promo-slider-ie8.png);
+}
+
+.promo-slider__item-wrapper {
+    padding-top: 97px;
+    padding-left: 41px;
+    padding-bottom: 112px;
+    padding-right: 455px;
+}
+
+.promo-slider__item-header {
+    color: #fefefe;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 7px;
+    margin-left: 0px;
+}
+
+.promo-slider__item-subheader {
+    color: #edbfff;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    height: 25px;
+    overflow: hidden;
+    margin-bottom: 7px;
+    margin-left: 0;
+}
+
+
+
+.promo-slider__item-descr {
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    height: 100px;
+    overflow: hidden;
+    line-height: 26px;
+}
+
+.promo-slider__button-left {
+    top: 0px;
+    bottom: 0;
+    left: -4px;
+}
+
+.promo-slider__button-right {
+    top: 0px;
+    bottom: 0px;
+    right: -4px;
+}
+
+.promo-slider__item-img {
+    display: block;
+    position: absolute;
+    top: -27px;
+    right: 49px;
+}
+
+
+.promo-slider__pagination {
+    height: 155px;
+    padding-top: 39px;
+}
+.promo-slider__pagination-item {
+}
+.promo-slider__pagination-item--active {
+}
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+About our company
+*************************************************/
+
+.about-company {
+    padding-top: 77px;
+    padding-bottom: 66px;
+    /*! padding-left: 20px; */
+    /*! padding-right: 20px; */
+}
+
+.about-company__wrapper {
+}
+
+.about-company__item {
+    width: 33.333%;
+    padding-left: 83px;
+    float:left;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.about-company__item--for-pix-pefr-n1{
+    width: 30.2083333333333%;
+    margin-right: 2.47395833333333%;
+}
+.about-company__item--for-pix-pefr-n2{
+    width: 30.2083333333333%;
+    margin-right: 3.515625%;
+}
+.about-company__item--for-pix-pefr-n3{
+    width: 30.2083333333333%;
+    margin-right: 0px;
+}
+
+
+.about-company__item-header {
+}
+.about-company__item-descr {
+    max-height: 140px;
+    width: auto;
+}
+.about-company__item-link {
+    margin-right: 5px;
+    padding-top: 1px;
+}
+.about-company__item-icon {
+    top: 3px;
+    left: 29px;
+}
+.about-company__item-icon--n2 {
+}
+.about-company__item-icon--n3 {
+}
+
+
+
+
+
+
+
+
+
+/*************************************************
+Reviews slider
+*************************************************/
+
+.reviews-and-updates{
+    padding: 33px 20px 0px 0px;
+
+}
+
+.review-updates__wrapper{
+    margin-bottom: -4px;
+}
+
+.review-updates__wrapper:after{
+   content: "";
+   display: table;
+   clear: both;    
+}
+
+.reviews-slider__item-author{
+    left: -26px;
+
+}
+.reviews-slider {
+    width: 50%;
+    float: left;
+    padding-left: 23px;
+    padding-right: 19px;
+    padding-top: 68px;
+}
+
+.reviews-slider__item {
+    padding-left: 37px;
+    padding-top: 27px;
+}
+
+.reviews-slider__item-text{
+    margin-top: 8px;
+    height: 150px;
+    margin-bottom: 7px;
+}
+
+.reviews-slider__pagination{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*************************************************
+Resent Updates
+*************************************************/
+.updates {
+    width: 37%;
+    float: left;
+    margin-top: 93px;
+    margin-right: 0px;
+}
+.updates__header {
+    margin-left: -8px;
+    margin-bottom: 17px;
+}
+.updates__item {
+    margin-bottom: 20px;
+    padding-left: 58px;
+}
+.updates__item-image {
+    top: 0px;
+    left: -7px;
+}
+.updates__item-header {
+}
+.updates__item-descr {
+}
+
+.updates__more-link-wrapp{
+    margin-top: -4px;
+    margin-left: -4px;
+}
+.updates__more-link {
+    position: relative;
+    right: -52px;
+    top: -6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+Customers logo
+*************************************************/
+
+
+
+.customers-logo {
+    width: 100%;
+}
+.customers-logo__wrapper {
+    
+    padding-top: 27px;
+    
+    padding-bottom: 12px;
+    /*! padding-bottom: 10px; */
+}
+.customers-logo__image-wrapper {
+    width: 16.6%;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+/*************************************************
+News
+*************************************************/
+.news {
+    display: block;
+    background-color: #ececec;
+    border-top: 1px solid #d8d8d8;
+}
+
+.news__wrapper {
+    padding: 101px 20px 37px;
+}
+.news__wrapper:after{
+   content: "";
+   display: table;
+   clear: both;    
+}
+
+.news__description {
+    display: none;
+}
+
+.news__comments {
+    display: none;
+}
+
+.news__categories {
+    width: 33.33%;
+float: left;
+display: block;
+}
+
+.news__categories-header {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.news__categories-text {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #787878;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 170px;
+    overflow: hidden;
+    margin-bottom: 60px;
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+Footer
+*************************************************/
+.page-footer {
+    padding-top: 0px;
+}
+
+.page-footer__menu {
+    display: block;
+    padding-top: 38px;
+    padding-bottom: 19px;
+    /*! text-align: center; */
+    margin-left: 18px;
+}
+
+.page-footer__menu-item {
+    text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: LeagueGothic, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+    text-decoration: none;
+    /*! margin: 0px 12px; */
+    margin-right: 5.20833333333333%;
+}
+
+
+.page-footer__copyright {
+    text-align: right;
+    margin-right: 10px;
+}
+.page-footer__copyright--company {
+}
+
+
+
+
+
+
+
+
+} 
+
+
+
+
+
+
+
+
